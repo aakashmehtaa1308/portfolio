@@ -1,0 +1,39 @@
+.logo {
+  float: left;
+  color: turquoise;
+  font-size: 1.5rem;
+}
+
+.container_fluid {
+  background-color: black;
+}
+
+.container_fluid .header .ant-menu li.ant-menu-item {
+  font-size: 1.5rem;
+  color: turquoise;
+}
+.icon {
+  font-size: 2rem;
+  color: turquoise;
+}
+
+.ant-drawer-wrapper-body {
+  background-color: black;
+}
+
+.container_fluid .header .ant-menu li.ant-menu-item-selected,
+.container_fluid .header .ant-menu li.ant-menu-item:hover {
+  border-bottom: 3px solid turquoise;
+  color: turquoise;
+}
+
+@media (max-width: 1000px) {
+  .container_fluid .header .ant-menu li.ant-menu-item {
+    display: none;
+  }
+}
+@media (min-width: 1000px) {
+  .icon {
+    display: none;
+  }
+}

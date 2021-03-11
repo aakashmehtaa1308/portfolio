@@ -1,0 +1,14 @@
+.anticon {
+  color: turquoise;
+}
+
+.drawer .ant-menu li.ant-menu-item {
+  font-size: 1.5rem;
+  color: turquoise;
+}
+
+.drawer .ant-menu li.ant-menu-item-selected,
+.drawer .ant-menu li.ant-menu-item:hover {
+  border-bottom: 1px solid turquoise;
+  background-color: black;
+}
