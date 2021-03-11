@@ -6,9 +6,25 @@
 
 .container_fluid {
   background-color: black;
+  height: 4.2rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.container_fluid_scroll {
+  background-color: white;
+  height: 4.2rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .container_fluid .header .ant-menu li.ant-menu-item {
+  font-size: 1.5rem;
+  color: turquoise;
+}
+.container_fluid_scroll .header .ant-menu li.ant-menu-item {
   font-size: 1.5rem;
   color: turquoise;
 }
@@ -26,9 +42,17 @@
   border-bottom: 3px solid turquoise;
   color: turquoise;
 }
+.container_fluid_scroll .header .ant-menu li.ant-menu-item-selected,
+.container_fluid_scroll .header .ant-menu li.ant-menu-item:hover {
+  border-bottom: 3px solid turquoise;
+  color: turquoise;
+}
 
 @media (max-width: 1000px) {
   .container_fluid .header .ant-menu li.ant-menu-item {
+    display: none;
+  }
+  .container_fluid_scroll .header .ant-menu li.ant-menu-item {
     display: none;
   }
 }

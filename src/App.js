@@ -1,18 +1,15 @@
-// import { Drawer } from 'antd';
 import { React } from 'react';
 import './App.css';
-import About from './Components/About/About';
+import About from './Components/About';
 import Navbar from './Components/Navbar';
-import Drawer from './Components/DrawerCom';
 
 function App() {
   return (
-  <div className='App'>
-    <Navbar />
-    {/* <About /> */}
-    {/* <Drawer /> */}
-  </div>
-  )
+    <div className='App'>
+      <Navbar />
+      <About />
+    </div>
+  );
 }
 
 export default App;

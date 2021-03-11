@@ -1,7 +1,7 @@
 import { Layout, Menu } from 'antd';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
-import { AlignCenterOutlined } from '@ant-design/icons';
+import { AlignCenterOutlined, PicLeftOutlined } from '@ant-design/icons';
 
 import './style.css';
 import DrawerCom from '../DrawerCom';
@@ -13,6 +13,20 @@ const { Header } = Layout;
  **/
 
 const Navbar = (props) => {
+  // const handleScroll = () => {
+  //   if (window.scrollY > 600) {
+  //     document.querySelector('#container').className = 'container_fluid_scroll';
+  //   } else {
+  //     document.querySelector('#container').className = 'container_fluid';
+  //   }
+  // };
+  // useEffect(() => {
+  //   window.addEventListener('scroll', handleScroll);
+  //   return () => {
+  //     window.removeEventListener('scroll', handleScroll);
+  //   };
+  // }, []);
+
   const [showDrawer, setShowDrawer] = useState(false);
 
   const handleDrawer = () => {
@@ -24,9 +38,11 @@ const Navbar = (props) => {
   };
 
   return (
-    <div className='container_fluid'>
+    <div className='container_fluid' id='container'>
       <Header className='header' style={{ backgroundColor: 'transparent' }}>
-        <div className='logo'>PORTFOLIO</div>
+        <div className='logo'>
+          <PicLeftOutlined /> PORTFOLIO
+        </div>
         <Menu
           theme='light'
           mode='horizontal'

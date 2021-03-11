@@ -1,0 +1,52 @@
+.about {
+  padding-top: 12rem;
+  height: auto;
+}
+
+.aboutHead {
+  background-color: black;
+}
+
+.about .about_in2 {
+  color: turquoise;
+  font-size: 1.2rem;
+}
+.img {
+  width: 30rem;
+  height: 30rem;
+  border-radius: 50rem;
+}
+@media (max-width: 1078px) {
+  .about {
+    padding-top: 6rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .img {
+    width: 20rem;
+    height: 20rem;
+  }
+}
+
+.about .about_in1 {
+  text-align: center;
+}
+
+.about .about_in2 .btn,
+.about .about_in2 .btn:visited {
+  background-color: turquoise;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  height: 4rem;
+  width: 15rem;
+  margin-left: 3rem;
+}
+.about .about_in2 .btn:hover {
+  background-color: rgba(64, 224, 208, 0.404);
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  height: 4rem;
+  width: 15rem;
+  border: none;
+}
