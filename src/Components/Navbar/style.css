@@ -10,14 +10,18 @@
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 100;
+  transition: .2s;
 }
 
 .container_fluid_scroll {
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0.733);
   height: 4.2rem;
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 100;
+  transition: .2s;
 }
 
 .container_fluid .header .ant-menu li.ant-menu-item {
@@ -40,15 +44,15 @@
 .container_fluid .header .ant-menu li.ant-menu-item-selected,
 .container_fluid .header .ant-menu li.ant-menu-item:hover {
   border-bottom: 3px solid turquoise;
-  color: turquoise;
+  color: rgba(64, 224, 208, 0.678);
 }
 .container_fluid_scroll .header .ant-menu li.ant-menu-item-selected,
 .container_fluid_scroll .header .ant-menu li.ant-menu-item:hover {
   border-bottom: 3px solid turquoise;
-  color: turquoise;
+  color: rgba(64, 224, 208, 0.678);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1168px) {
   .container_fluid .header .ant-menu li.ant-menu-item {
     display: none;
   }
@@ -56,7 +60,7 @@
     display: none;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 1168px) {
   .icon {
     display: none;
   }

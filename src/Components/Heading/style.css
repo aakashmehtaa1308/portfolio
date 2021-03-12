@@ -1,0 +1,11 @@
+.typo_head {
+  text-align: center;
+}
+
+.typo {
+  background: -webkit-linear-gradient(rgb(25, 229, 236), rgb(98, 241, 2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'sans-serif';
+  border-bottom: 2px solid rgba(35, 194, 35, 0.904);
+}

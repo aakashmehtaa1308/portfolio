@@ -31,6 +31,7 @@ const DrawerCom = (props) => {
           <Menu.Item key='3'>EXPERIENCE</Menu.Item>
           <Menu.Item key='4'>SKILLS</Menu.Item>
           <Menu.Item key='5'>PROJECTS</Menu.Item>
+          <Menu.Item key='6'>CONTACT</Menu.Item>
         </Menu>
       </Drawer>
     </div>

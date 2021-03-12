@@ -13,19 +13,19 @@ const { Header } = Layout;
  **/
 
 const Navbar = (props) => {
-  // const handleScroll = () => {
-  //   if (window.scrollY > 600) {
-  //     document.querySelector('#container').className = 'container_fluid_scroll';
-  //   } else {
-  //     document.querySelector('#container').className = 'container_fluid';
-  //   }
-  // };
-  // useEffect(() => {
-  //   window.addEventListener('scroll', handleScroll);
-  //   return () => {
-  //     window.removeEventListener('scroll', handleScroll);
-  //   };
-  // }, []);
+  const handleScroll = () => {
+    if (window.scrollY > 50) {
+      document.querySelector('#container').className = 'container_fluid_scroll';
+    } else {
+      document.querySelector('#container').className = 'container_fluid';
+    }
+  };
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   const [showDrawer, setShowDrawer] = useState(false);
 
@@ -58,6 +58,7 @@ const Navbar = (props) => {
           <Menu.Item key='3'>EXPERIENCE</Menu.Item>
           <Menu.Item key='4'>SKILLS</Menu.Item>
           <Menu.Item key='5'>PROJECTS</Menu.Item>
+          <Menu.Item key='6'>CONTACT</Menu.Item>
           <AlignCenterOutlined className='icon' onClick={handleDrawer} />
         </Menu>
       </Header>

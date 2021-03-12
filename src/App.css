@@ -13,3 +13,7 @@
   color: #1890ff;
   background: none;
 }
+
+.App {
+  overflow-x: hidden;
+}
