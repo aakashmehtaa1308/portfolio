@@ -1,0 +1,23 @@
+.skills {
+  padding-bottom: 6rem;
+  background-color: black;
+  padding-top: 6rem;
+}
+
+.skill_row {
+  margin-top: 4rem;
+}
+
+.skill_col_1 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: turquoise;
+}
+
+.ant-progress-bg {
+  height: 1rem !important;
+}
+
+.skill_col {
+  margin-left: 20vw;
+}

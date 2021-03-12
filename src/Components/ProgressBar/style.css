@@ -1,0 +1,40 @@
+.progress_bar {
+  width: 70rem;
+}
+
+@media (max-width: 1570px) {
+  .progress_bar {
+    width: 60rem;
+  }
+}
+@media (max-width: 1370px) {
+  .progress_bar {
+    width: 50rem;
+  }
+}
+@media (max-width: 1170px) {
+  .progress_bar {
+    width: 40rem;
+  }
+}
+@media (max-width: 970px) {
+  .progress_bar {
+    width: 30rem;
+  }
+}
+@media (max-width: 770px) {
+  .progress_bar {
+    width: 30rem;
+  }
+}
+@media (max-width: 580px) {
+  .progress_bar {
+    width: 20rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .progress_bar {
+    width: 15rem;
+  }
+}
