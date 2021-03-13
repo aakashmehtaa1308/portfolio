@@ -55,6 +55,7 @@
 }
 
 .desg_ans {
+  font-weight: 500;
   background: -webkit-linear-gradient(rgb(0, 247, 255), rgb(105, 167, 65));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

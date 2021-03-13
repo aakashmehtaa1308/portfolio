@@ -49,7 +49,7 @@ const Navbar = (props) => {
         <Menu
           theme='light'
           mode='horizontal'
-          defaultSelectedKeys={[`1`]}
+          // defaultSelectedKeys={[`1`]}
           style={{
             float: 'right',
             backgroundColor: 'transparent',

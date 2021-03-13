@@ -20,7 +20,7 @@ const DrawerCom = (props) => {
         <Menu
           theme='light'
           mode='vertical'
-          defaultSelectedKeys={['1']}
+          // defaultSelectedKeys={['1']}
           style={{
             float: 'right',
             backgroundColor: 'transparent',

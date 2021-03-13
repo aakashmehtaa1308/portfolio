@@ -2,7 +2,7 @@ import React from 'react';
 import { Row, Col, Button } from 'antd';
 import image from '../../images/aakash.jpg';
 import { DownloadOutlined } from '@ant-design/icons';
-import CV from '../../images/resume_aakash_GGSIPU.pdf';
+
 import './style.css';
 /**
  * @author
@@ -20,10 +20,10 @@ const About = (props) => {
         style={{ width: '100%' }}
       >
         <Col xs={20} lg={12} className='about_in1'>
-          <img className='img' src={image} />
+          <img className='img' src={image} alt='image not found' />
         </Col>
         <Col xs={20} lg={12} className='about_in2'>
-          <div style={{ width: '90%', marginLeft: '5%' }}>
+          <div className='text_description' style={{ width: '90%', marginLeft: '5%' }}>
             I am{' '}
             <em>
               <strong>AAKASH</strong>
@@ -47,7 +47,7 @@ const About = (props) => {
             <a
               style={{ color: 'white', fontSize: '1.5rem' }}
               className='Download'
-              href={CV}
+              href='https://drive.google.com/file/d/1lciRv2cTjzuAkDPl77vZgMr-urF70H_D/view?usp=sharing'
               target='_blank'
             >
               <DownloadOutlined

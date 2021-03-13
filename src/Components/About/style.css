@@ -69,3 +69,11 @@
 .about .about_in1 {
   text-align: center;
 }
+
+.text_description {
+  font-size: 1.9rem;
+  font-weight: 500;
+  background: linear-gradient(to right, rgb(0, 247, 255), rgb(105, 167, 65));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

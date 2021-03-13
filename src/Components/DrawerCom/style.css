@@ -7,7 +7,7 @@
   color: turquoise;
 }
 
-.drawer .ant-menu li.ant-menu-item-selected,
+/* .drawer .ant-menu li.ant-menu-item-selected, */
 .drawer .ant-menu li.ant-menu-item:hover {
   border-bottom: 1px solid turquoise;
   color: rgba(64, 224, 208, 0.404);
