@@ -1,0 +1,66 @@
+.contact_component {
+    background-color: black;
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+}
+.contact_form {
+    padding-top: 2rem;
+}
+
+@media (max-width:575px) {
+    .contact_form {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .button {
+        margin-right: 1.5rem;
+    }
+    .ant-col-offset-8 {
+        margin-left: 20%;
+    }
+}
+
+.ant-form-item-label > label {
+    font-size: 20px;
+    color: turquoise;
+}
+
+input[type='text'], input[type='password'], input[type='number'], textarea {
+    height: 3rem;
+    border-radius: 8rem;
+}
+
+.input_field {
+    border: 2px solid turquoise;
+    font-size: 1.5rem;
+    font-weight: 500;
+    /* background-color: rgba(92, 88, 88, 0.116); */
+}
+.text_field {
+    border: 2px solid turquoise;
+    /* border-radius: 2rem; */
+    height: 5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    /* background-color: rgba(92, 88, 88, 0.116); */
+}
+
+.input_field:hover,
+.input_field:focus {
+    border: 1.5px solid turquoise;
+    box-shadow: white;
+}
+
+.button,
+.button:focus {
+    background-color: turquoise;
+    border-radius: 2rem;
+    height: 4rem;
+    font-size: 2rem;
+    width: 12rem;
+}
+
+.button:hover {
+    background-color: rgba(64, 224, 208, 0.404);
+    border: none;
+}

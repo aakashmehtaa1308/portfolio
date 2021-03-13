@@ -15,7 +15,7 @@ const { Title, Paragraph } = Typography;
 const Experience = (props) => {
   const val = 'EXPERIENCE';
   return (
-    <div className='experience'>
+    <div id='experience' className='experience'>
       <Heading title={val} />
 
       <Row

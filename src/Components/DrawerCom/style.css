@@ -2,7 +2,7 @@
   color: turquoise;
 }
 
-.drawer .ant-menu li.ant-menu-item {
+.drawer .ant-menu li.ant-menu-item a {
   font-size: 1.5rem;
   color: turquoise;
 }
@@ -13,6 +13,11 @@
   color: rgba(64, 224, 208, 0.404);
   background-color: black;
 }
+
+/* .drawer .ant-menu li.ant-menu-item-selected,
+.drawer .ant-menu li.ant-menu-item:hover {
+  
+} */
 
 .ant-menu-vertical {
   margin-top: 6rem;

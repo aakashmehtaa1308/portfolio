@@ -1,13 +1,8 @@
 import React from 'react';
 import Heading from '../Heading';
-import { Row, Col, Typography, Button } from 'antd';
+import { Row } from 'antd';
 import './style.css';
-
-import { ManOutlined } from '@ant-design/icons';
 import GridCol from '../GridCol';
-import Grid from 'antd/lib/card/Grid';
-
-const { Title, Paragraph } = Typography;
 
 /**
  * @author
@@ -17,7 +12,7 @@ const { Title, Paragraph } = Typography;
 const Project = (props) => {
   const val = 'PROJECTS';
   return (
-    <div className='projects'>
+    <div id='projects' className='projects'>
       <Heading title={val} />
       <Row
         className='experience_row'

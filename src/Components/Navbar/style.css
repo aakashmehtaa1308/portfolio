@@ -11,7 +11,7 @@
   top: 0;
   width: 100%;
   z-index: 100;
-  transition: .2s;
+  transition: 0.2s;
 }
 
 .container_fluid_scroll {
@@ -21,14 +21,14 @@
   top: 0;
   width: 100%;
   z-index: 100;
-  transition: .2s;
+  transition: 0.2s;
 }
 
-.container_fluid .header .ant-menu li.ant-menu-item {
+.container_fluid .header .ant-menu li.ant-menu-item a {
   font-size: 1.5rem;
   color: turquoise;
 }
-.container_fluid_scroll .header .ant-menu li.ant-menu-item {
+.container_fluid_scroll .header .ant-menu li.ant-menu-item a {
   font-size: 1.5rem;
   color: turquoise;
 }
@@ -43,13 +43,20 @@
 
 .container_fluid .header .ant-menu li.ant-menu-item-selected,
 .container_fluid .header .ant-menu li.ant-menu-item:hover {
-  border-bottom: 3px solid turquoise;
-  color: rgba(64, 224, 208, 0.678);
+  border-bottom: 3px solid turquoise !important;
+}
+.container_fluid .header .ant-menu li.ant-menu-item-selected a,
+.container_fluid .header .ant-menu li.ant-menu-item a:hover {
+  color: rgba(64, 224, 208, 0.678) !important;
 }
 .container_fluid_scroll .header .ant-menu li.ant-menu-item-selected,
 .container_fluid_scroll .header .ant-menu li.ant-menu-item:hover {
-  border-bottom: 3px solid turquoise;
-  color: rgba(64, 224, 208, 0.678);
+  border-bottom: 3px solid turquoise !important;
+}
+
+.container_fluid_scroll .header .ant-menu li.ant-menu-item-selected a,
+.container_fluid_scroll .header .ant-menu li.ant-menu-item a:hover {
+  color: rgba(64, 224, 208, 0.678) !important;
 }
 
 @media (max-width: 1168px) {

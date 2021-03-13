@@ -14,13 +14,13 @@ const GridCol = (props) => {
   return (
     <Col className='experience_col' span={20}>
       <Title style={{ color: 'turquoise', marginTop: '2rem' }} level={3}>
-        {props.designation1} : <em>{props.designation1_answer}</em>
+        {props.designation1} : <em className='desg_ans'>{props.designation1_answer}</em>
       </Title>
       <Title style={{ color: 'turquoise' }} level={3}>
-        {props.designation2} : <em>{props.designation2_answer}</em>
+        {props.designation2} : <em className='desg_ans'>{props.designation2_answer}</em>
       </Title>
       <div className='paragraph'>
-        <Paragraph className='paragraph_body'>
+        <Paragraph className='paragraph_body desg_ans'>
           {props.summary}
         </Paragraph>
       </div>

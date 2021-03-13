@@ -12,7 +12,7 @@ import ProgressBar from '../ProgressBar';
 const Skills = (props) => {
   const val = 'SKILLS';
   return (
-    <div className='skills'>
+    <div id='skills' className='skills'>
       <Heading title={val} />
       <Row className='skill_row' gutter={[0, 16]}>
         <Col className='skill_col' xm={20} sm={20} md={20} span={12}>

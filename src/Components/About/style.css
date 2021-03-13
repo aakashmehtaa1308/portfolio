@@ -45,6 +45,9 @@
   .about .about_in2 .btn:visited {
     margin-top: 2rem;
   }
+  .about .about_in2 .btn:hover {
+    margin-top: 2rem;
+  }
 }
 
 @media (max-width: 540px) {
@@ -57,7 +60,8 @@
     padding-bottom: 10rem;
   }
   .about .about_in2 .btn,
-  .about .about_in2 .btn:visited {
+  .about .about_in2 .btn:visited,
+  .about .about_in2 .btn:hover {
     margin-top: 4rem;
   }
 }

@@ -11,7 +11,7 @@ import './style.css';
 
 const About = (props) => {
   return (
-    <div className='aboutHead'>
+    <div id='about' className='aboutHead'>
       <Row
         gutter={[0, 24]}
         className='about'
