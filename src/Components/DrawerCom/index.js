@@ -18,7 +18,7 @@ const DrawerCom = (props) => {
         visible={props.toShow}
       >
         <Menu
-          theme='light'
+          // theme='light'
           mode='vertical'
           // defaultSelectedKeys={['1']}
           style={{

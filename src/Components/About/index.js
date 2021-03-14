@@ -2,6 +2,7 @@ import React from 'react';
 import { Row, Col, Button } from 'antd';
 import image from '../../images/aakash.jpg';
 import { DownloadOutlined } from '@ant-design/icons';
+import Typing from 'react-typing-animation';
 
 import './style.css';
 /**
@@ -10,6 +11,8 @@ import './style.css';
  **/
 
 const About = (props) => {
+  const text =
+    'I am AAKASH , currently doing graduation in information Technology from GGSIPU.I am a MERN Stack Web Developer with expertise in various languages and Frameworks like ReactJs, NodeJs, ExpressJs Bootstrap, Material UI, Ant Design, JavaScript, HTML/CSS, and a database MongoDB.';
   return (
     <div id='about' className='aboutHead'>
       <Row
@@ -23,18 +26,11 @@ const About = (props) => {
           <img className='img' src={image} alt='image not found' />
         </Col>
         <Col xs={20} lg={12} className='about_in2'>
-          <div className='text_description' style={{ width: '90%', marginLeft: '5%' }}>
-            I am{' '}
-            <em>
-              <strong>AAKASH</strong>
-            </em>
-            , currently doing graduation with information Technology.I am a{' '}
-            <em>
-              <strong>MERN</strong>
-            </em>{' '}
-            Stack Web Developer with expertise in various languages and
-            Frameworks like ReactJs, NodeJs, ExpressJs Bootstrap, Material UI,
-            Ant Design, JavaScript, HTML/CSS, and a database MongoDB.
+          <div
+            className='text_description'
+            style={{ width: '90%', marginLeft: '5%' }}
+          >
+            <Typing speed={30} className='typing'>{text}</Typing>
           </div>
 
           <Button

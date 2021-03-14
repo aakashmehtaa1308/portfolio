@@ -9,3 +9,8 @@
 .App {
   overflow-x: hidden;
 }
+
+::selection {
+  background: turquoise;
+  /* color: red; */
+}

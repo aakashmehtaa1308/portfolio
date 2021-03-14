@@ -60,3 +60,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+/* .desg_ans::selection {
+  color: brown;
+} */

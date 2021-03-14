@@ -6,16 +6,25 @@ import Experience from './Components/Experience';
 import Navbar from './Components/Navbar';
 import Project from './Components/Projects';
 import Skills from './Components/Skills';
+import { Layout } from 'antd';
+import FooterCom from './Components/Footer';
+
+const { Header, Content, Footer } = Layout;
 
 function App() {
   return (
     <div className='App'>
       <Navbar />
-      <About />
-      <Experience />
-      <Skills />
-      <Project />
-      <Contact />
+      <Content>
+        <About />
+        <Experience />
+        <Skills />
+        <Project />
+        <Contact />
+      </Content>
+      <Footer style={{ backgroundColor: 'black' }}>
+        <FooterCom />
+      </Footer>
     </div>
   );
 }

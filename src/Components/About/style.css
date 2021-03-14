@@ -27,6 +27,8 @@
   width: 15rem;
   margin-left: 3rem;
 }
+
+
 .about .about_in2 .btn:hover {
   background-color: rgba(64, 224, 208, 0.404);
   margin-top: 7rem;
@@ -77,3 +79,4 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+

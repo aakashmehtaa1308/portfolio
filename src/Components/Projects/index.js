@@ -60,7 +60,7 @@ const Project = (props) => {
           designation2={'TECH-USED'}
           designation2_answer={'HTML, CSS, JavaScript'}
           summary={`Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industrys standard dummy text ever
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and
           scrambled it to make `}
           btnInfo={'Visit Project'}
