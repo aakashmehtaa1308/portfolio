@@ -50,7 +50,6 @@ const FooterCom = (props) => {
               className='col_users'
               target='_blank'
             >
-              {/* <img style={{backgroundColor:'white'}} src={hackerrank} /> */}
               <img src={hackerrank} alt='img' style={{ width: '3rem' }} />
               hackerRank
             </a>
@@ -70,7 +69,6 @@ const FooterCom = (props) => {
               className='col_users'
               target='_blank'
             >
-              {/* <img style={{backgroundColor:'white'}} src={hackerrank} /> */}
               <img src={github} alt='img' style={{ width: '2rem' }} /> github
             </a>
           </Col>

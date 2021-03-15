@@ -8,7 +8,6 @@ import { AlignCenterOutlined, PicLeftOutlined } from '@ant-design/icons';
 import './style.css';
 import DrawerCom from '../DrawerCom';
 const { Header } = Layout;
-// const { SubMenu } = Menu;
 /**
  * @author
  * @function Navbar
@@ -49,7 +48,6 @@ const Navbar = (props) => {
         <Menu
           theme='light'
           mode='horizontal'
-          // defaultSelectedKeys={[`1`]}
           style={{
             float: 'right',
             backgroundColor: 'transparent',
@@ -61,11 +59,6 @@ const Navbar = (props) => {
               HOME
             </Link>
           </Menu.Item>
-          {/* <Menu.Item key='2'>
-            <Link to='about' smooth={true}>
-              ABOUT
-            </Link>
-          </Menu.Item> */}
           <Menu.Item key='2'>
             <Link to='experience' smooth={true}>
               EXPERIENCE
@@ -95,4 +88,3 @@ const Navbar = (props) => {
 };
 
 export default Navbar;
-//gadiyan rkhda kaliyan

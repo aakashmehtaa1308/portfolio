@@ -18,9 +18,7 @@ const DrawerCom = (props) => {
         visible={props.toShow}
       >
         <Menu
-          // theme='light'
           mode='vertical'
-          // defaultSelectedKeys={['1']}
           style={{
             float: 'right',
             backgroundColor: 'transparent',
@@ -32,11 +30,6 @@ const DrawerCom = (props) => {
               HOME
             </Link>
           </Menu.Item>
-          {/* <Menu.Item key='2'>
-            <Link to='about' smooth={true}>
-              ABOUT
-            </Link>
-          </Menu.Item> */}
           <Menu.Item key='2'>
             <Link to='experience' smooth={true}>
               EXPERIENCE

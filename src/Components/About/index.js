@@ -30,7 +30,9 @@ const About = (props) => {
             className='text_description'
             style={{ width: '90%', marginLeft: '5%' }}
           >
-            <Typing speed={30} className='typing'>{text}</Typing>
+            <Typing speed={30} className='typing'>
+              {text}
+            </Typing>
           </div>
 
           <Button
